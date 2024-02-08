@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <script src="Storage.js"></script> -->
+  <script src="script.js" type="module"></script>
+</head>
+
+<body>
+  <!-- Form  Part -->
+  <div class="main">
+    <div class="child">
+      <h1>Employee</h1>
+    <div class="baiscForm">
+
+      <div class="heading">
+        <h2>Add Employee</h2>
+      </div>
+      <form class="employeeForm" id="employeeForm">
+
+
+
+        <table>
+          <tr>
+            <th>Name:</th>
+            <td>
+              <input type="text" name="name" id="name">
+              <div class="error-message" data-error-for="name"></div>
+            </td>
+          </tr>
+          <tr>
+            <th>Gender</th>
+            <td>
+              <input type="radio" name="Gender" value="male" id="male" checked>
+              <label for="male">Male</label>
+
+              <input type="radio" name="Gender" value="female" id="female">
+              <label for="female">Female</label>
+              <div class="error-message" data-error-for="gender"></div>
+            </td>
+          </tr>
+          <tr>
+            <th>Date of Birth:</th>
+            <td>
+              <input type="date" name="birthday" id="birthday">
+              <div class="error-message" data-error-for="dob"></div>
+            </td>
+          </tr>
+          <tr>
+            <th>Email:</th>
+            <td>
+              <input type="email" name="email" id="email">
+              <div class="error-message" data-error-for="email"></div>
+            </td>
+          </tr>
+          <tr>
+            <th>Phone:</th>
+            <td>
+              <input type="tel" name="Phone" id="Phone">
+              <div class="error-message" data-error-for="phone"></div>
+            </td>
+          </tr>
+          <tr>
+            <th>Hobbies:</th>
+            <td>
+              <input type="checkbox" name="sports" value="cricket" id="cricket">
+              <label for="cricket">Cricket</label>
+            </td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>
+              <input type="checkbox" name="sports" value="chess" id="chess">
+              <label for="chess">Chess</label>
+            </td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>
+              <input type="checkbox" name="sports" value="tennis" id="tennis">
+              <label for="tennis">Tennis</label>
+              <div class="error-message" data-error-for="hobbies"></div>
+            </td>
+          </tr>
+          <tr>
+            <th></th>
+            <td>
+              <input id="submit" type="submit" name="submit">
+              <button id="update" type="button" style="display: none;">Update</button>
+              <button id="cancel" type="button" style="display: none;">Cancel</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+
+    </div>
+
+
+
+    </div>
+  </div>
+
+
+
+
+
+  <!-- Display Table Part -->
+
+  <div class="main" id="main">
+    <div class="child" id="basicChild">
+      <h1>Basic</h1>
+
+
+      <div class="heading1" id="basicHeading1">
+        <h2>Display</h2>
+      </div>
+
+          <div class="display-basic-data">
+            <table class="basic" id="displayTable">
+
+              <tr id="tableHeaders" >
+                <th class="th-displayData">Id</th>
+                <th class="th-displayData">Name</th>
+                <th class="th-displayData">Gender</th>
+                <th class="th-displayData">Date of Birth:</th>
+                <th class="th-displayData">Email</th>
+                <th class="th-displayData">Phone</th>
+                <th class="th-displayData">Hobbies</th>
+                <th class="th-displayData">Actions</th>
+              </tr>
+            </table>
+
+
+        </div>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+<!-- advance table part -->
+
+  <div class="main" id="main">
+    <div class="advchild" id="advanceChild">
+      <h1>Advance</h1>
+
+      <div class="display-advance-data">
+        <div class="heading2">
+          <h2>Display</h2>
+        </div>
+
+        <table class="advance" id="displayAdvTable">
+          <tr id="advtableHeaders">
+
+            <th class="th-displayAdvData">Id</th>
+
+            </tr>
+
+
+            <th class="th-displayAdvData">Name</th>
+
+            </tr>
+            <tr>
+              <th class="th-displayAdvData">Gender</th>
+
+            </tr>
+            <tr>
+
+              <th class="th-displayAdvData">Date of Birth:</th>
+            </tr>
+            <tr>
+
+              <th class="th-displayAdvData">Phone</th>
+            </tr>
+            <tr>
+
+              <th class="th-displayAdvData">Email</th>
+            </tr>
+            <tr>
+
+              <th class="th-displayAdvData">Hobbies</th>
+            </tr>
+            <tr>
+
+              <th class="th-displayAdvData">Actions</th>
+            </tr>
+          </tr>
+        </table>
+
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
